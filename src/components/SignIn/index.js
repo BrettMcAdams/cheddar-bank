@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import {
   Container,
   FormWrap,
@@ -12,7 +13,15 @@ import {
   Text
 } from './SigninElements';
 
+
 const SignIn = () => {
+
+  const history = useHistory()
+
+  const click = () => {
+    history.push('/dashboard')
+  }
+
   return (
     <>
       <Container>
@@ -25,7 +34,7 @@ const SignIn = () => {
               <FormInput type='email' required />
               <FormLabel htmlFor='for'>Password</FormLabel>
               <FormInput type='password' required />
-              <FormButton type='submit'>Continue</FormButton>
+              <FormButton type='submit' onClick={click} >Continue</FormButton>
               <Text>Forgot password</Text>
             </Form>
           </FormContent>

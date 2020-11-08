@@ -6,7 +6,7 @@ export const ServicesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #f5f5f5;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -65,8 +65,9 @@ export const ServicesH1 = styled.h1`
   font-size: 3.5rem;
   color: #fff;
   margin-bottom: 64px;
+  color: #ffa448;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 680px) {
     font-size: 2rem;
   }
 `;
@@ -74,9 +75,11 @@ export const ServicesH1 = styled.h1`
 export const ServicesH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
+  color: #ffa448;
 `;
 
 export const ServicesP = styled.p`
   font-size: 1rem;
   text-align: center;
+  color: #ffa448;
 `;

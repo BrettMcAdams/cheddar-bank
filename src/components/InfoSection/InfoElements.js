@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
+  background: ${({ lightBg }) => (lightBg ? '#ffa448' : '#f5f5f5')};
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 80px 0;
   }
 `;
 
@@ -54,7 +54,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: #01bf71;
+  color: #ffa448;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -64,14 +64,14 @@ export const TopLine = styled.div`
 `;
 
 export const Heading = styled.h1`
-  margin-bottom: 24px;
-  font-size: 48px;
+  margin-bottom: 4px;
+  font-size: 28px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
+  color: ${({ lightText }) => (lightText ? '#ffa448' : '#010606')};
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
+  @media screen and (max-width: 780px) {
+    font-size: 24px;
   }
 `;
 
@@ -80,7 +80,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+  color: ${({ darkText }) => (darkText ? '#010606' : '#ffa448')};
 `;
 
 export const BtnWrap = styled.div`

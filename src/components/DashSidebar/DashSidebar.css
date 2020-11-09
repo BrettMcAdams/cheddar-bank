@@ -1,0 +1,106 @@
+.dash {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+.dash__left {
+	width: 15%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color:	#002b55;
+	min-width: 200px;
+}
+
+.dash .dash__logoContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 5vh;
+	border-bottom: 1px solid lightgray;
+	width: 100%;
+	background-color:	#001c39;
+}
+
+.dash__left .dash__logoContainer h2 {
+	color:#f6a145;
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+	margin-right: 10px;
+	text-align: center;
+	font-family: monospace;
+}
+
+.dash__left .dash__logoContainer a {
+	text-decoration: none;
+}
+
+.dash .dash__nav {
+	display: flex;
+	flex-direction: column;
+	height: 50%;
+	justify-content: space-evenly;
+}
+
+.dash .dash__nav svg {
+	margin-right: 10px;
+}
+
+.dash .dash__nav a {
+	text-decoration: none;
+	color: lightgray;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.dash .dash__nav a:first-child {
+	border-left: 4px solid #f6a145;
+	color: #f6a145;
+}
+
+.dash > .dash__icon {
+	height: 20px;
+	width: 20px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+}
+
+.dash > .dash__left > .dash__info {
+	padding-bottom: 40px;
+}
+
+.dash .dash__info > h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	color: #f6a145;
+	margin-left: 20px;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.dash .dash__logo {
+	height: 40px;
+	width: 40px;
+}
+
+.dash .dash__info > h3 {
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 0.9rem;
+	color: lightgray;
+	margin-left: 20px;
+	font-weight: 400;
+}
+
+.dash .dash__info > p {
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 0.7rem;
+	color: lightgray;
+	margin-left: 20px;
+	font-weight: 400;
+}

@@ -7,7 +7,7 @@ import { Route, Switch } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <body className="dash">
+    <section className="dash">
       <DashSidebar />
       <section className="dash__right">
         <DashNav />
@@ -17,7 +17,7 @@ const Dashboard = () => {
           </Route>
         </Switch>
       </section>
-    </body>
+    </section>
   );
 };
 

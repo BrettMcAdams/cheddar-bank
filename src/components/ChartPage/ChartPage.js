@@ -19,8 +19,8 @@ const useStyles = makeStyles({
 const ChartPage = () => {
   const classes = useStyles();
   return (
-    <div>
-      <div class="grid-container__left">
+    <div className='chart' >
+      <div className="grid-container__left">
         <Card className={classes.root}>
           <LineChart />
         </Card>
@@ -28,7 +28,7 @@ const ChartPage = () => {
           <PieChart />
         </Card>
       </div>
-      <div class="grid-container__right">
+      <div className="grid-container__right">
         <Card className={classes.root}>
           <PolarChart />
         </Card>

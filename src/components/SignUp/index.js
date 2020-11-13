@@ -76,7 +76,7 @@ const SignIn = () => {
                 </Text>
               )}
               <Text>Forgot password?</Text>
-              <Text>Don't have an account? Sign up</Text>
+              <Text>Sign up</Text>
             </Form>
           </FormContent>
         </FormWrap>
